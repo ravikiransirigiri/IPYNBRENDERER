@@ -1,0 +1,11 @@
+ipywidgets  #ipywidgets, also known as jupyter-widgets or simply widgets, are interactive HTML widgets for Jupyter notebooks and the IPython kernel.
+notebook    #The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text. The Notebook has support for multiple programming languages, sharing, and interactive widgets.
+ensure      #ensure is a set of simple assertion helpers that let you write more expressive, literate, concise, and readable Pythonic code for validating conditions
+py-youtube
+
+#dev requirments
+pytest
+tox        #tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python
+black      #formatting
+flake8     #It displays the warnings in a per-file, merged output.
+mypy       #Mypy is essentially a Python linter on steroids, and it can catch many programming errors by analyzing your program, without actually having to run it.
