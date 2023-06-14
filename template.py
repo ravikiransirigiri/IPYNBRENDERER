@@ -37,6 +37,6 @@ for filepath in list_of_files:
             pass
         logging.info(f"creating a  new file {filename} at path: {filepath}")
     else:
-        logging.info(f"file is already present at {filepath}")
+        logging.info(f"file is already present at: {filepath}")
     
 
