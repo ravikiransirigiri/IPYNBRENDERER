@@ -1,12 +1,13 @@
-ipywidgets  #ipywidgets, also known as jupyter-widgets or simply widgets, are interactive HTML widgets for Jupyter notebooks and the IPython kernel.
-notebook    #The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text. The Notebook has support for multiple programming languages, sharing, and interactive widgets.
-ensure      #ensure is a set of simple assertion helpers that let you write more expressive, literate, concise, and readable Pythonic code for validating conditions
-py-youtube
+ipywidgets==8.0.2 #ipywidgets, also known as jupyter-widgets or simply widgets, are interactive HTML widgets for Jupyter notebooks and the IPython kernel.
+notebook==6.4.12    #The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text. The Notebook has support for multiple programming languages, sharing, and interactive widgets.
+py-youtube==1.1.7      #ensure is a set of simple assertion helpers that let you write more expressive, literate, concise, and readable Pythonic code for validating conditions
+ensure==1.0.2
+mkdocs-material
 
 #dev requirments
-pytest
-tox        #tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python
-black      #formatting
-flake8     #It displays the warnings in a per-file, merged output.
-mypy       #Mypy is essentially a Python linter on steroids, and it can catch many programming errors by analyzing your program, without actually having to run it.
+pytest==7.1.3
+tox==3.25.1       #tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python
+black==22.8.0      #formatting
+flake8==5.0.4    #It displays the warnings in a per-file, merged output.
+mypy==0.971       #Mypy is essentially a Python linter on steroids, and it can catch many programming errors by analyzing your program, without actually having to run it.
 -e .

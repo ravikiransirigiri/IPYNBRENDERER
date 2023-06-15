@@ -1,3 +1,7 @@
+"""
+The primary purpose of the pyproject.toml file is to define the project's build
+ dependencies, build system configuration, and tool settings.
+"""
 [build-sysytem]
 
 requires = ["setuptools>=42.0","wheel"]
