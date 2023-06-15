@@ -1,0 +1,19 @@
+[build-sysytem]
+
+requires = ["setuptools>=42.0","wheel"]
+build-backend = "setup-tools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+[tool.mypy]
+mypy_path = "src"
+ignore_missing_imports = true
+
+[options.package_data]
+IPYNBrenderer = py.typed
+
+[flake8]
+max-line-length = 160
+exclude = __init__.py
